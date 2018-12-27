@@ -1,0 +1,15 @@
+ASP.account_login_aspx 09:26:27
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 09:28:45
+GV_Datos_SelectedIndexChanged - Procedure or function 'usp_SINO_SolicitaRegistro_GasNaturalComplejos' expects parameter '@ANIO', which was not supplied.
+
+ASP.account_login_aspx 09:29:57
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 09:30:09
+GV_Datos_SelectedIndexChanged - Procedure or function 'usp_SINO_SolicitaRegistro_GasNaturalComplejos' expects parameter '@ANIO', which was not supplied.
+
+ASP.gas_natural_complejos_aspx 09:31:54
+GV_Datos_SelectedIndexChanged - Procedure or function 'usp_SINO_SolicitaRegistro_GasNaturalComplejos' expects parameter '@ANIO', which was not supplied.
+

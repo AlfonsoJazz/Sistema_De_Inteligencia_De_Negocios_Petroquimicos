@@ -1,0 +1,88 @@
+﻿<%@ Master Language="VB" CodeFile="SistemaInteligenciaNegociosOxiteno.master.vb" Inherits="SistemaInteligenciaNegociosOxiteno" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//ES" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+   <title>SINO | Sistema de Inteligencia de Negocios Oxiteno</title>
+   <meta name="generator" content="José Alfonso Mosco H. - Becario de Negocios de TI"/>
+   <link rel="shorcut icon" href="uiResources/Favicon_Oxiteno.ico" />
+   <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+   <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+   </asp:ContentPlaceHolder>
+</head>
+<body>
+<div class="loader" id="loader">
+    <form id="Form1" runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    Sistema de Inteligencia de Negocios Oxiteno MAC
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:Image ID="Image1" runat="server" 
+                    ImageUrl="~/uiResources/OxitenoAzul.gif" />
+                <br />
+                Bienvenido: <asp:Label ID="lUsuario" 
+                    runat="server"></asp:Label>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" 
+                    EnableViewState="False" IncludeStyleBlock="False" Orientation="Horizontal" 
+                    StaticSubMenuIndent="16px">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Inicio"/>
+                        <asp:MenuItem Text="Producción" 
+                            Value="Producción" Selectable="False">
+                            <asp:MenuItem Text="01 Producción de hidrocarburos líquidos" 
+                                Value="Producción de hidrocarburos líquidos" 
+                                NavigateUrl="~/Hidrocarburos_Liquidos.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="02 Producción Gas Natural" 
+                                Value="Produccion_Gas_Natural" 
+                                NavigateUrl="~/Produccion_Gas_Natural.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="03 Producción gas liquidos fraccionados" 
+                                Value="Producción gas liquidos fraccionados" 
+                                NavigateUrl="~/Gas_Liquidos_Fraccionados.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="04 Proceso de Gas" 
+                                Value="Proceso de Gas" NavigateUrl="~/Proceso_Gas.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="05 Elaboración de productos petroquímicos" 
+                                Value="Elaboración de productos petroquímicos" 
+                                NavigateUrl="~/Productos_Petroquimicos.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="06 Importación Etanol" Value="Importación Etanol" 
+                                NavigateUrl="~/Importacion_Etanol.aspx" 
+                                
+                                ToolTip="Esta página aun se encuentra en desarrollo, disculpe las molestias">
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="07 Gas natural [Complejos]" Value="Gas natural [Complejos]" 
+                                NavigateUrl="~/Gas_Natural_Comp.aspx" 
+                                
+                                
+                                ToolTip="Esta página aun se encuentra en desarrollo, disculpe las molestias">
+                            </asp:MenuItem>
+<asp:MenuItem Text="08 Cadena Etanol" Value="Cadena Etanol" NavigateUrl="~/Cadena_Etanol.aspx" 
+                                
+                                ToolTip="Esta página aun se encuentra en desarrollo, disculpe las molestias"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Cerrar sesión" Value="Cerrar sesión"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        Oxiteno México 2018  | Negocios TI
+    </div>
+    </form>
+    <p>
+&nbsp;&nbsp;&nbsp;
+    </p>
+</div>
+</body>
+</html>

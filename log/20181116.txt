@@ -1,0 +1,159 @@
+ASP.sistemainteligencianegociosoxiteno_master 11:22:42
+Page_Load - El usuario Jose Alfonso Mosco Herrera ha accedio al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 11:22:47
+Page_Load - El usuario Jose Alfonso Mosco Herrera ha accedio al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 11:29:55
+Page_Load - El usuario Jose Alfonso Mosco Herrera ha accedio a
+
+ASP.sistemainteligencianegociosoxiteno_master 11:30:02
+Page_Load - El usuario Jose Alfonso Mosco Herrera ha accedio a
+
+ASP.sistemainteligencianegociosoxiteno_master 11:30:05
+Page_Load - El usuario Jose Alfonso Mosco Herrera ha accedio a
+
+ASP.sistemainteligencianegociosoxiteno_master 11:31:41
+Page_Load - El usuario Jose Alfonso Mosco Herrera ha accedio aClick
+
+ASP.sistemainteligencianegociosoxiteno_master 11:31:57
+Page_Load - El usuario Jose Alfonso Mosco Herrera ha accedio aClick
+
+ASP.sistemainteligencianegociosoxiteno_master 11:32:01
+Page_Load - El usuario Jose Alfonso Mosco Herrera ha accedio aClick
+
+ASP.sistemainteligencianegociosoxiteno_master 11:32:04
+Page_Load - El usuario Jose Alfonso Mosco Herrera ha accedio aClick
+
+ASP.account_login_aspx 11:40:51
+Autentica - El usuario Jose Alfonso Mosco Herrera accedio al sistema
+
+ASP.account_login_aspx 11:43:14
+Autentica - El usuario Jose Alfonso Mosco Herrera accedio al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 11:43:19
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 12:15:02
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:17:45
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:19:07
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:51:54
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 12:53:30
+add_Click - Procedure or function 'usp_SINO_NuevoRegistro_ImportacionEtanol' expects parameter '@ETANOL_MT', which was not supplied.
+
+ASP.account_login_aspx 12:54:59
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:59:54
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 13:17:15
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 13:42:21
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:47:38
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:49:53
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:51:13
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:53:23
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:54:21
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 14:01:09
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 14:09:27
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 14:14:10
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 14:15:09
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 14:15:49
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 14:16:09
+GV_Datos_SelectedIndexChanged - ExecuteReader: CommandText property has not been initialized
+
+ASP.account_login_aspx 14:19:33
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 14:20:37
+GV_Datos_SelectedIndexChanged - Input string was not in a correct format.
+
+ASP.gas_natural_complejos_aspx 14:21:07
+GV_Datos_SelectedIndexChanged - Input string was not in a correct format.
+
+ASP.account_login_aspx 14:22:34
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 14:28:10
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 14:28:45
+GV_Datos_SelectedIndexChanged - Input string was not in a correct format.
+
+ASP.account_login_aspx 14:31:29
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 14:31:50
+GV_Datos_SelectedIndexChanged - Input string was not in a correct format.
+
+ASP.account_login_aspx 14:32:44
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 14:33:26
+GV_Datos_SelectedIndexChanged - Input string was not in a correct format.
+
+ASP.account_login_aspx 14:34:40
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 14:36:36
+GV_Datos_SelectedIndexChanged - Procedure or function 'usp_SINO_SolicitaRegistro_GasNaturalComplejos' expects parameter '@AÑO', which was not supplied.
+
+ASP.gas_natural_complejos_aspx 14:37:16
+GV_Datos_SelectedIndexChanged - Procedure or function 'usp_SINO_SolicitaRegistro_GasNaturalComplejos' expects parameter '@AÑO', which was not supplied.
+
+ASP.gas_natural_complejos_aspx 14:38:18
+GV_Datos_SelectedIndexChanged - Procedure or function 'usp_SINO_SolicitaRegistro_GasNaturalComplejos' expects parameter '@AÑO', which was not supplied.
+
+ASP.account_login_aspx 14:39:33
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 14:40:01
+GV_Datos_SelectedIndexChanged - Procedure or function 'usp_SINO_SolicitaRegistro_GasNaturalComplejos' expects parameter '@AÑO', which was not supplied.
+
+ASP.account_login_aspx 14:42:03
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 14:42:13
+GV_Datos_SelectedIndexChanged - Procedure or function 'usp_SINO_SolicitaRegistro_GasNaturalComplejos' expects parameter '@AÑO', which was not supplied.
+
+ASP.gas_natural_complejos_aspx 14:43:16
+GV_Datos_SelectedIndexChanged - Procedure or function 'usp_SINO_SolicitaRegistro_GasNaturalComplejos' expects parameter '@AÑO', which was not supplied.
+
+ASP.account_login_aspx 14:46:49
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 14:49:26
+GV_Datos_SelectedIndexChanged - Procedure or function 'usp_SINO_SolicitaRegistro_GasNaturalComplejos' expects parameter '@AÑO', which was not supplied.
+

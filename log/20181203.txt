@@ -1,0 +1,328 @@
+ASP.account_login_aspx 09:00:14
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 09:00:23
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 09:01:11
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_admin_log_aspx 09:01:37
+Page_Load - Enumeration has not started. Call MoveNext.
+
+ASP.account_login_aspx 09:03:31
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:03:31
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_admin_log_aspx 09:03:37
+Page_Load - The path is not of a legal form.
+
+ASP.account_admin_log_aspx 09:04:29
+Page_Load - The path is not of a legal form.
+
+ASP.account_login_aspx 09:05:07
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:05:07
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_admin_log_aspx 09:05:39
+Page_Load - This row already belongs to this table.
+
+ASP.account_login_aspx 09:09:44
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:09:44
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_admin_log_aspx 09:09:58
+Page_Load - Cannot find column 0.
+
+ASP.account_admin_log_aspx 09:10:31
+Page_Load - This row already belongs to this table.
+
+ASP.account_admin_log_aspx 09:11:01
+Page_Load - This row already belongs to this table.
+
+ASP.account_login_aspx 09:11:23
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_admin_log_aspx 09:11:30
+Page_Load - This row already belongs to this table.
+
+ASP.account_admin_log_aspx 09:11:59
+Page_Load - This row already belongs to this table.
+
+ASP.account_login_aspx 09:13:19
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:13:19
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 09:14:32
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:14:32
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 09:15:12
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:15:12
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_admin_log_aspx 09:15:16
+Page_Load - This row already belongs to this table.
+
+ASP.account_login_aspx 09:29:59
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:29:59
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_admin_log_aspx 09:30:28
+Page_Load - Cannot change AutoIncrement of a DataColumn with type 'String' once it has data.
+
+ASP.account_login_aspx 09:30:47
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:30:47
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_admin_log_aspx 09:31:04
+Page_Load - This row already belongs to this table.
+
+ASP.account_login_aspx 09:33:35
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:33:35
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_admin_log_aspx 09:33:43
+Page_Load - This row already belongs to this table.
+
+ASP.account_admin_log_aspx 09:34:05
+Page_Load - This row already belongs to this table.
+
+ASP.account_login_aspx 09:35:18
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:35:18
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 09:37:15
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:37:15
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 09:39:31
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:39:31
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 09:40:09
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:40:09
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 09:45:17
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:45:17
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 09:53:47
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:53:47
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:17:30
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:32:40
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 10:32:40
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_admin_log_aspx 10:32:58
+Page_Load - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+ASP.account_login_aspx 10:41:06
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:48:52
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 10:48:52
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:49:43
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 10:49:43
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:53:03
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 10:53:03
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:54:02
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 10:54:02
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:54:45
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 10:54:45
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:10:16
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 11:10:16
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 11:10:52
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 11:12:28
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 11:13:35
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 11:21:46
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:57:13
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:58:14
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 11:58:14
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:16:00
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+System.IO.FileInfo 12:16:25
+Log_Admin_Click - Compressed {0} from {1} to {2} bytes.20181116.txt6701790
+
+System.IO.FileInfo 12:16:25
+Log_Admin_Click - Compressed {0} from {1} to {2} bytes.20181120.txt803281
+
+System.IO.FileInfo 12:16:25
+Log_Admin_Click - Compressed {0} from {1} to {2} bytes.20181121.txt1030300
+
+System.IO.FileInfo 12:16:25
+Log_Admin_Click - Compressed {0} from {1} to {2} bytes.20181122.txt8712814
+
+System.IO.FileInfo 12:16:25
+Log_Admin_Click - Compressed {0} from {1} to {2} bytes.20181123.txt125631246
+
+System.IO.FileInfo 12:16:26
+Log_Admin_Click - Compressed {0} from {1} to {2} bytes.20181126.txt13171723
+
+System.IO.FileInfo 12:16:26
+Log_Admin_Click - Compressed {0} from {1} to {2} bytes.20181127.txt152281137
+
+System.IO.FileInfo 12:16:26
+Log_Admin_Click - Compressed {0} from {1} to {2} bytes.20181128.txt516245
+
+System.IO.FileInfo 12:16:26
+Log_Admin_Click - Compressed {0} from {1} to {2} bytes.20181129.txt4840560
+
+System.IO.FileInfo 12:16:26
+Log_Admin_Click - Compressed {0} from {1} to {2} bytes.20181130.txt164981460
+
+ASP.account_login_aspx 12:46:26
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:47:17
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 12:47:17
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:55:58
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 12:55:58
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:56:34
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 12:56:34
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:59:12
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 12:59:12
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:15:24
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 13:15:24
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:23:26
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 13:23:26
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:29:07
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 13:29:07
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:30:51
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 13:30:51
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:32:17
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 13:32:17
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:34:04
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 13:34:04
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 13:34:15
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 13:34:56
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:37:17
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:38:11
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 13:43:52
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+

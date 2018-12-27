@@ -1,0 +1,381 @@
+ASP.account_login_aspx 09:28:31
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 09:34:18
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:34:18
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 09:36:27
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:36:27
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 09:40:16
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:40:16
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 09:42:40
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:42:40
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_comp_aspx 09:43:38
+Guardar_Registros_Nuevos_Click - The current TransactionScope is already complete.
+
+ASP.sistemainteligencianegociosoxiteno_master 09:46:57
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 09:46:58
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 09:47:12
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:47:12
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_comp_aspx 09:48:00
+Guardar_Registros_Nuevos_Click - The current TransactionScope is already complete.
+
+ASP.account_login_aspx 09:48:39
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:48:39
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 09:52:56
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:52:56
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:04:04
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 10:04:04
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:05:32
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 10:05:32
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:41:57
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:44:01
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 10:44:01
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_comp_aspx 10:46:03
+Actualizar_Registros_Click - Failed to convert parameter value from a String[] to a String.
+
+ASP.account_login_aspx 10:47:09
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 10:47:09
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_comp_aspx 10:49:52
+Actualizar_Registros_Click - Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+
+ASP.account_login_aspx 10:50:15
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 10:50:15
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_comp_aspx 10:51:19
+Actualizar_Registros_Click - Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+
+ASP.account_login_aspx 10:51:53
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 10:51:53
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_comp_aspx 10:53:01
+Actualizar_Registros_Click - Procedure or function usp_SINO_UPDATE_GasNaturalComplejos has too many arguments specified.
+
+ASP.account_login_aspx 10:53:20
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_comp_aspx 10:54:55
+Actualizar_Registros_Click - Procedure or function usp_SINO_UPDATE_GasNaturalComplejos has too many arguments specified.
+
+ASP.account_login_aspx 10:56:04
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 10:56:04
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_comp_aspx 10:57:16
+Actualizar_Registros_Click - Procedure or function usp_SINO_UPDATE_GasNaturalComplejos has too many arguments specified.
+
+ASP.gas_natural_comp_aspx 10:58:16
+Actualizar_Registros_Click - Procedure or function usp_SINO_UPDATE_GasNaturalComplejos has too many arguments specified.
+
+ASP.account_login_aspx 11:01:54
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 11:01:54
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_comp_aspx 11:04:29
+Actualizar_Registros_Click - Procedure or function usp_SINO_UPDATE_GasNaturalComplejos has too many arguments specified.
+
+ASP.account_login_aspx 11:06:03
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 11:06:03
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_comp_aspx 11:07:21
+Actualizar_Registros_Click - The ConnectionString property has not been initialized.
+
+ASP.account_login_aspx 11:07:42
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 11:07:42
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_comp_aspx 11:08:54
+Actualizar_Registros_Click - Procedure or function usp_SINO_UPDATE_GasNaturalComplejos has too many arguments specified.
+
+ASP.account_login_aspx 11:48:29
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:51:56
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 11:51:56
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:52:55
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 11:52:55
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:54:18
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 11:54:18
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:57:32
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 11:57:32
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:59:54
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 11:59:54
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:01:17
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 12:01:17
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_comp_aspx 12:02:18
+Actualizar_Registros_Click - Incorrect syntax near '2018'.
+
+ASP.account_login_aspx 12:13:36
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 12:13:36
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:14:56
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 12:14:56
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_comp_aspx 12:15:07
+Actualizar_Registros_Click - UPDATE BKUP_GasNatualComplejos SET SINOXCarga007_Año = 2018, SINOXCarga007_Mes = 10, SINOXCarga007_Origen = 'Gas Natural', SINOXCarga007_Tipo = '', SINOXCarga007_Region = '', SINOXCarga007_Complejo = 'Cantarell', SINOXCarga007_Vol = 1.00, SINOXCarga007_UDM = 4 WHERE SINOXCarga007_Año = 2018 AND SINOXCarga007_Mes = 10 AND SINOXCarga007_Origen = 'Gas Natural' AND SINOXCarga007_Tipo = '' AND SINOXCarga007_Region = '' AND SINOXCarga007_Complejo = 'Cantarell'
+
+ASP.account_login_aspx 12:17:02
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 12:17:02
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:33:49
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 12:34:06
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 13:04:04
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:06:48
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 13:06:48
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:08:12
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 13:08:12
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:10:49
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 13:10:49
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 13:11:34
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 13:28:37
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:29:22
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 13:29:22
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 13:29:44
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 13:31:54
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 13:32:11
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 13:53:27
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:58:28
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 13:58:28
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:59:23
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 13:59:23
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 14:00:23
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 14:00:23
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 14:01:09
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 14:01:09
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 14:01:13
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 14:07:40
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 14:07:45
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 14:09:02
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 14:11:37
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 14:11:37
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 14:24:41
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 14:24:41
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 14:25:54
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 14:25:54
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 14:28:57
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 14:28:57
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_admin_log_aspx 14:29:03
+Page_Load - This row already belongs to this table.
+
+ASP.account_login_aspx 14:29:17
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 14:29:17
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_admin_log_aspx 14:29:57
+Page_Load - This row already belongs to this table.
+
+ASP.account_login_aspx 14:30:50
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 14:30:50
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 14:31:22
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 14:31:30
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 14:31:31
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_admin_log_aspx 14:31:37
+Page_Load - Cannot find column 1.
+
+ASP.account_login_aspx 14:40:13
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 14:40:13
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_admin_log_aspx 14:40:37
+Page_Load - Cannot find column 1.
+
+ASP.account_login_aspx 14:41:19
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 14:41:19
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_admin_log_aspx 14:41:42
+Page_Load - This row already belongs to this table.
+
+ASP.account_login_aspx 14:42:10
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 14:42:10
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+

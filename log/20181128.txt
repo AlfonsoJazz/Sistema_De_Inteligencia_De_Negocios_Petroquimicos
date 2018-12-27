@@ -1,0 +1,12 @@
+ASP.account_login_aspx 09:14:16
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 09:17:20
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 09:17:20
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 09:18:18
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+

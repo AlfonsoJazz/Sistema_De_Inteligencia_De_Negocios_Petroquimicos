@@ -1,0 +1,48 @@
+ASP.account_login_aspx 12:25:32
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:27:09
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 12:27:09
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:50:37
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 12:51:07
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 12:53:07
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:29:01
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:35:24
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 13:35:24
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 14:11:20
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 14:17:12
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 14:17:12
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.cadena_etanol_aspx 14:19:39
+editar_Click - Unable to cast object of type 'System.Web.UI.ResourceBasedLiteralControl' to type 'System.Web.UI.WebControls.TextBox'.
+
+ASP.account_login_aspx 14:28:12
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 14:28:12
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 14:38:05
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+

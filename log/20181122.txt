@@ -1,0 +1,240 @@
+ASP.account_login_aspx 09:03:13
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 09:08:29
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 09:10:57
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 09:21:41
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 09:22:12
+btn_edit_Click - Input string was not in a correct format.
+
+ASP.gas_natural_complejos_aspx 09:23:21
+btn_edit_Click - Input string was not in a correct format.
+
+ASP.gas_natural_complejos_aspx 09:24:09
+btn_edit_Click - Failed to convert parameter value from a String to a Decimal.
+
+ASP.account_login_aspx 09:27:14
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 09:28:39
+btn_edit_Click - Failed to convert parameter value from a String to a Decimal.
+
+ASP.account_login_aspx 09:29:19
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 09:29:52
+btn_edit_Click - Failed to convert parameter value from a String to a Decimal.
+
+ASP.account_login_aspx 09:35:33
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 09:36:06
+btn_edit_Click - Failed to convert parameter value from a String to a Decimal.
+
+ASP.account_login_aspx 09:37:28
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 09:38:01
+btn_edit_Click - Failed to convert parameter value from a String to a Decimal.
+
+ASP.account_login_aspx 09:39:04
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 09:39:46
+btn_edit_Click - Failed to convert parameter value from a String to a Decimal.
+
+ASP.account_login_aspx 09:40:03
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 09:40:34
+btn_edit_Click - Failed to convert parameter value from a String to a Decimal.
+
+ASP.account_login_aspx 09:41:45
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 09:42:48
+btn_edit_Click - Failed to convert parameter value from a String to a Decimal.
+
+ASP.account_login_aspx 09:43:37
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 09:43:59
+btn_edit_Click - Procedure or function 'usp_SINO_UPDATE_GasNaturalComplejos' expects parameter '@UNIDAD_DE_MEDIDA', which was not supplied.
+
+ASP.account_login_aspx 09:58:28
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:00:29
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:01:39
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:02:53
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:06:09
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:11:24
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:16:51
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:19:59
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:26:51
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:29:39
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:34:51
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:44:09
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:45:00
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:46:36
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:48:45
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:50:57
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:51:41
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:57:34
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:01:53
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:06:17
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:09:38
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:12:23
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:16:44
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:18:39
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:21:09
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:25:48
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:27:39
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:29:26
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:44:08
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:44:54
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:45:47
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:46:50
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:48:00
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:52:01
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:00:00
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 12:00:13
+GV_Datos_Updating - Object reference not set to an instance of an object.
+
+ASP.gas_natural_complejos_aspx 12:00:44
+GV_Datos_Updating - Object reference not set to an instance of an object.
+
+ASP.account_login_aspx 12:19:03
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:24:06
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:25:52
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:30:08
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:31:40
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:40:02
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:40:45
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:46:54
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:49:50
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:50:23
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:00:06
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:05:38
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:06:52
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:38:51
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 14:07:17
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 14:10:06
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 14:10:58
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 14:18:46
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 14:26:01
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 14:26:54
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+

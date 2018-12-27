@@ -1,0 +1,412 @@
+ASP.account_login_aspx 09:20:28
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 09:22:35
+GV_Datos_SelectedIndexChanged - Object reference not set to an instance of an object.
+
+ASP.account_login_aspx 09:22:51
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 09:23:26
+GV_Datos_SelectedIndexChanged - Object reference not set to an instance of an object.
+
+ASP.account_login_aspx 09:31:01
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 09:32:59
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 09:35:02
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 09:49:50
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 09:54:54
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 09:56:08
+GV_Datos_SelectedIndexChanged - Object reference not set to an instance of an object.
+
+ASP.account_login_aspx 10:15:08
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:16:33
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:19:28
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:28:26
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 10:33:06
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 10:36:49
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:38:43
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 10:38:43
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:41:51
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 10:44:00
+GV_Datos_SelectedIndexChanged - Unable to cast object of type 'System.Web.UI.WebControls.ImageButton' to type 'System.Web.UI.WebControls.LinkButton'.
+
+ASP.gas_natural_complejos_aspx 10:44:22
+GV_Datos_SelectedIndexChanged - Unable to cast object of type 'System.Web.UI.WebControls.ImageButton' to type 'System.Web.UI.WebControls.LinkButton'.
+
+ASP.account_login_aspx 10:44:39
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 10:44:39
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 10:45:08
+GV_Datos_SelectedIndexChanged - 20181Gas NaturalGas AsociadoRegión Marina Noreste 1086.964
+
+ASP.account_login_aspx 10:48:55
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 10:48:55
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 10:49:45
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 10:49:45
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 10:49:53
+GV_Datos_RowCommand_Update - 20189Gas NaturalGas AsociadoRegión Marina Noreste 0.004
+
+ASP.account_login_aspx 10:54:35
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 10:54:35
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 10:54:45
+GV_Datos_RowCommand_Update - 20189Gas NaturalGas AsociadoRegión Marina Noreste 0.004
+
+ASP.gas_natural_complejos_aspx 10:54:45
+GV_Datos_RowCommand_Update - Updating is not supported by data source 'DS_test' unless UpdateCommand is specified.
+
+ASP.account_login_aspx 10:57:36
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 10:57:36
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.gas_natural_complejos_aspx 10:57:47
+GV_Datos_RowCommand_Update - 20189Gas NaturalGas AsociadoRegión Marina Noreste 0.004
+
+ASP.account_login_aspx 11:03:13
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 11:03:13
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:17:21
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 11:17:21
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:21:41
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 11:21:41
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 11:22:06
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 11:31:41
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 11:31:53
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 11:32:21
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 11:32:41
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 11:35:21
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 11:35:32
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 11:36:05
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 11:36:22
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 11:36:36
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 11:39:55
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 11:40:06
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 11:41:38
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:06:42
+Page_Load - Browser Capabilities
+Type = Chrome65
+Name = Chrome
+Version = 65.0
+Major Version = 65
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = 3.0
+Supports Java Applets = True
+Supports ActiveX Controls = False
+
+
+ASP.account_login_aspx 12:06:43
+Page_Load - Browser Capabilities
+Type = Chrome65
+Name = Chrome
+Version = 65.0
+Major Version = 65
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = 3.0
+Supports Java Applets = True
+Supports ActiveX Controls = False
+
+
+ASP.account_login_aspx 12:06:43
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:44:30
+Page_Load - Browser Capabilities
+Type = Chrome65
+Name = Chrome
+Version = 65.0
+Platform = WinNT
+
+
+ASP.account_login_aspx 12:44:35
+Page_Load - Browser Capabilities
+Type = Chrome65
+Name = Chrome
+Version = 65.0
+Platform = WinNT
+
+
+ASP.account_login_aspx 12:44:35
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 12:45:30
+Page_Load - Browser Capabilities
+Type = Chrome65
+Name = Chrome
+Version = 65.0
+Platform = WinNT
+
+
+ASP.account_login_aspx 12:45:33
+Page_Load - Browser Capabilities
+Type = Chrome65
+Name = Chrome
+Version = 65.0
+Platform = WinNT
+
+
+ASP.account_login_aspx 12:45:33
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 12:45:33
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 12:45:54
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 12:45:54
+Page_Load - Browser Capabilities
+Type = Chrome65
+Name = Chrome
+Version = 65.0
+Platform = WinNT
+
+
+ASP.account_login_aspx 12:47:27
+Page_Load - Browser Capabilities
+Type = Chrome65
+Name = Chrome
+Version = 65.0
+Platform = WinNT
+
+
+ASP.account_login_aspx 12:47:52
+Page_Load - Browser Capabilities
+Type = Chrome65
+Name = Chrome
+Version = 65.0
+Platform = WinNT
+
+
+ASP.account_login_aspx 12:47:53
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 12:48:26
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 12:48:26
+Page_Load - Browser Capabilities
+Type = Chrome65
+Name = Chrome
+Version = 65.0
+Platform = WinNT
+
+
+ASP.account_login_aspx 13:11:35
+Page_Load - Browser Capabilities
+Type = Chrome65
+Name = Chrome
+Version = 65.0
+Platform = WinNT
+
+
+ASP.account_login_aspx 13:11:38
+Page_Load - Browser Capabilities
+Type = Chrome65
+Name = Chrome
+Version = 65.0
+Platform = WinNT
+
+
+ASP.account_login_aspx 13:11:38
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.cadena_etanol_aspx 13:11:43
+dropAño_PreRender - Cannot find column 1.
+
+ASP.account_login_aspx 13:12:20
+Page_Load - Browser Capabilities
+Type = Chrome65
+Name = Chrome
+Version = 65.0
+Platform = WinNT
+
+
+ASP.account_login_aspx 13:12:23
+Page_Load - Browser Capabilities
+Type = Chrome65
+Name = Chrome
+Version = 65.0
+Platform = WinNT
+
+
+ASP.account_login_aspx 13:12:23
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 13:12:23
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:29:41
+Page_Load - Browser Capabilities
+Type = Chrome65
+Name = Chrome
+Version = 65.0
+Platform = WinNT
+
+
+ASP.account_login_aspx 13:29:44
+Page_Load - Browser Capabilities
+Type = Chrome65
+Name = Chrome
+Version = 65.0
+Platform = WinNT
+
+
+ASP.account_login_aspx 13:29:44
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:46:03
+Page_Load - Browser Capabilities
+Type = Chrome65
+Name = Chrome
+Version = 65.0
+Platform = WinNT
+
+
+ASP.account_login_aspx 13:46:05
+Page_Load - Browser Capabilities
+Type = Chrome65
+Name = Chrome
+Version = 65.0
+Platform = WinNT
+
+
+ASP.account_login_aspx 13:46:06
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 13:46:06
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.account_login_aspx 13:58:21
+Page_Load - Browser Capabilities
+Type = Chrome65
+Name = Chrome
+Version = 65.0
+Platform = WinNT
+
+
+ASP.account_login_aspx 13:58:23
+Page_Load - Browser Capabilities
+Type = Chrome65
+Name = Chrome
+Version = 65.0
+Platform = WinNT
+
+
+ASP.account_login_aspx 13:58:23
+Autentica - Se ha cerrado la sesión del usuario: Jose Alfonso Mosco Herrera por ingresar de nuevo al sistema
+
+ASP.account_login_aspx 13:58:23
+Autentica - El usuario Jose Alfonso Mosco Herrera accedió al sistema
+
+ASP.sistemainteligencianegociosoxiteno_master 13:59:08
+NavigationMenu_MenuItemClick - El usuario Jose Alfonso Mosco Herrera ha cerrado sesión con éxito
+
+ASP.account_login_aspx 13:59:08
+Page_Load - Browser Capabilities
+Type = Chrome65
+Name = Chrome
+Version = 65.0
+Platform = WinNT
+
+

@@ -1,0 +1,384 @@
+﻿Imports System.Data
+Imports System.Web
+Imports System.Web.UI.Control
+Imports System.Configuration.ConfigurationManager
+Imports System.Data.SqlClient
+Imports System.Web.Util.Transactions
+Imports System.Activities
+'Imports System.Data.SQLite
+
+Partial Class Gas_Natural_Complejos
+    Inherits System.Web.UI.Page
+    ' Private CadenaConexion As String = ConfigurationManager.ConnectionStrings("ZSINOConnectionString1").ConnectionString
+    Private CadenaConexionPrueba As String = ConfigurationManager.ConnectionStrings("ZOI1_prueba").ConnectionString
+    Private tabla7 As String = "SINOXCarga007_GasNatualComplejos"
+    Private u7 As Integer = 4
+    'Private mes As Integer
+    'Si el mes siguiente es igual a enero entonces agrega el siguiente año y el mes de enero tambien si no, solo este año y el siguiente mes
+    Private AñoSiguiente, MesSiguiente, mes As Integer
+
+    'para borrar todos los textbox al guardar en gridview
+    Public Sub ClearTextBox(parent As Control)
+        For Each child As Control In parent.Controls
+            ClearTextBox(child)
+        Next
+        If TryCast(parent, TextBox) IsNot Nothing Then
+            TryCast(parent, TextBox).Text = [String].Empty
+        End If
+    End Sub
+    'renderiza unidad de medida 
+    Protected Sub txtUDM_TextChanged(sender As Object, e As System.EventArgs) Handles txtUDM.PreRender
+        txtUDM.Text = "MMPCD"
+    End Sub
+    'año prerender
+    Protected Sub dropAño_PreRender(sender As Object, e As System.EventArgs) Handles dropAño.PreRender
+        Dim año As Integer
+        dropAño.Items.Clear()
+        Try
+            Using cnn As New SqlConnection(CadenaConexionPrueba)
+                Dim cmd_año As SqlCommand = cnn.CreateCommand
+                Dim dt_año As New DataTable
+                Dim dta As New SqlDataAdapter(cmd_año)
+                'Dim r As DataRow = dt_año.Rows(0)
+                cmd_año.CommandType = CommandType.StoredProcedure
+                cmd_año.Parameters.Add("@TABLA_CONSULTA", SqlDbType.NVarChar).Value = tabla7
+                cmd_año.CommandText = "usp_SINO_Solicita_Mes_Año"
+                cnn.Open()
+                cmd_año.ExecuteNonQuery()
+                dta.Fill(dt_año)
+                'MesSiguiente = Convert.ToInt32(dt_año.Rows(0)(1))
+                año = Convert.ToInt32(dt_año.Rows(0)(0))
+                MesSiguiente = Convert.ToInt32(dt_año.Rows(0)(1))
+                cnn.Close() : cnn.Dispose() : cmd_año.Dispose()
+            End Using
+            If MesSiguiente + 1 = 13 Then
+                AñoSiguiente = año + 1
+                dropAño.Items.Add(AñoSiguiente)
+                dropAño.Items.Add(año)
+            Else
+                dropAño.Items.Add(año)
+            End If
+        Catch ex As Exception
+            Lerror.Visible = True : Lerror.Text = ex.Message.ToString
+            ELog.save(Me, ex.Message.ToString)
+        End Try
+    End Sub
+    'mes prerender
+    Protected Sub dropMes_PreRender(sender As Object, e As System.EventArgs) Handles dropMes.PreRender
+        Dim mes As Integer
+        Dim enero As Integer = 1
+        dropMes.Items.Clear()
+        Try
+            Using cnn As New SqlConnection(CadenaConexionPrueba)
+                Dim cmd_mes As SqlCommand = cnn.CreateCommand
+                Dim dt_mes As New DataTable
+                Dim dta As New SqlDataAdapter(cmd_mes)
+                'Dim r As DataRow = dt_año.Rows(0)
+                cmd_mes.CommandType = CommandType.StoredProcedure
+                cmd_mes.Parameters.Add("@TABLA_CONSULTA", SqlDbType.NVarChar).Value = tabla7
+                cmd_mes.CommandText = "usp_SINO_Solicita_Mes_Año"
+                cnn.Open()
+                cmd_mes.ExecuteNonQuery()
+                dta.Fill(dt_mes)
+                mes = Convert.ToInt32(dt_mes.Rows(0)(1))
+                cnn.Close() : cnn.Dispose() : cmd_mes.Dispose()
+            End Using
+            If mes + 1 = 13 Then
+                dropMes.Items.Add(enero)
+                dropMes.Items.Add(mes)
+            Else
+                dropMes.Items.Add(mes)
+                dropMes.Items.Add(mes + 1)
+            End If
+        Catch ex As Exception
+            Lerror.Visible = True : Lerror.Text = ex.Message.ToString
+            ELog.save(Me, ex.Message.ToString)
+        End Try
+    End Sub
+    'metodo de prerender datos combo hay que cambiar cadena de conexion 
+    Private Sub Prerender_datos_combo(Orden As String)
+        Try
+            Using cnn As New SqlConnection(CadenaConexionPrueba)
+                Dim cmd_orden_dada As SqlCommand = cnn.CreateCommand
+                Dim gDT As New DataTable
+                Dim ra As SqlDataReader = Nothing
+                cmd_orden_dada.CommandType = CommandType.StoredProcedure
+                cmd_orden_dada.Parameters.Add("@ORDEN_RECIBIDA", SqlDbType.VarChar).Value = Orden
+                cmd_orden_dada.CommandText = "usp_SINO_GasNaturalComplejos_Seleccion_Especial"
+                cnn.Open()
+                ra = cmd_orden_dada.ExecuteReader
+                Select Case Orden
+                    Case "DAME_TIPO"
+                        While ra.Read
+                            dropTipo.Items.Add(ra.GetString(0))
+                        End While
+                        ra.Close()
+                    Case "DAME_REGION"
+                        While ra.Read
+                            dropRegion.Items.Add(ra.GetString(0))
+                        End While
+                        ra.Close()
+                    Case "DAME_COMPLEJO"
+                        While ra.Read
+                            dropComplejo.Items.Add(ra.GetString(0))
+                        End While
+                        ra.Close()
+                End Select
+                cnn.Close() : cnn.Dispose()
+            End Using
+        Catch ex As Exception
+            Lerror.Visible = True : Lerror.Text = ex.Message.ToString
+            ELog.save(Me, ex.Message.ToString)
+        End Try
+    End Sub
+    'prerender tipo de dato
+    Protected Sub dropTipo_PreRender(sender As Object, e As System.EventArgs) Handles dropTipo.PreRender
+        Dim ordenT As String = "DAME_TIPO"
+        dropTipo.Items.Clear()
+        Me.Prerender_datos_combo(ordenT)
+    End Sub
+    'prerender region
+    Protected Sub dropRegion_PreRender(sender As Object, e As System.EventArgs) Handles dropRegion.PreRender
+        Dim ordenR As String = "DAME_REGION"
+        dropRegion.Items.Clear()
+        Me.Prerender_datos_combo(ordenR)
+    End Sub
+    'prerender complejo
+    Protected Sub dropComplejo_PreRender(sender As Object, e As System.EventArgs) Handles dropComplejo.PreRender
+        Dim ordenC As String = "DAME_COMPLEJO"
+        dropComplejo.Items.Clear()
+        Me.Prerender_datos_combo(ordenC)
+    End Sub
+
+    'boton cancelar movimiento de actualizacion 
+    'Protected Sub btn_cancel_Click(sender As Object, e As System.Web.UI.ImageClickEventArgs) Handles btn_cancel.Click
+    '    Dim parent As Object = Panel_main
+    '    Me.ClearTextBox(parent)
+    '    'btn_edit.Visible = False
+    '    'btn_cancel.Visible = False
+    '    add.Visible = True
+    '    txtMes0.Visible = False
+    '    dropMes.Visible = True
+    '    txtaño0.Visible = False
+    '    dropAño.Visible = True
+    '    ' cambiamos el color de los contenedores 
+    '    dropOrigen.BorderColor = Drawing.Color.LightGray
+    '    dropTipo.BorderColor = Drawing.Color.LightGray
+    '    dropRegion.BorderColor = Drawing.Color.LightGray
+    '    dropComplejo.BorderColor = Drawing.Color.LightGray
+    '    Lerror.Text = String.Empty : Lerror.Visible = False
+    '    'GV_Datos.SelectedRow.Focus = False
+    '    GV_Datos.Rows(GV_Datos.SelectedRow.RowIndex).BackColor = Drawing.Color.White : GV_Datos.Rows(GV_Datos.SelectedRow.RowIndex).ForeColor = Drawing.Color.Black
+    'End Sub
+
+    'añade un registro a la tabla en cuestion 
+    Protected Sub add_Click(sender As Object, e As System.Web.UI.ImageClickEventArgs) Handles add.Click
+        Try
+            Dim ValorVolumen As Decimal = txtVol.Text
+            'If txtVol.Text = "0.00" Then
+            '    ValorVolumen = 0
+            'End If
+            Using con_add As New SqlConnection(CadenaConexionPrueba)
+                Dim cmd_add As SqlCommand = con_add.CreateCommand
+                cmd_add.CommandType = CommandType.StoredProcedure
+                cmd_add.Parameters.Add("@AÑO", SqlDbType.Int).Value = Convert.ToInt32(dropAño.SelectedValue)
+                cmd_add.Parameters.Add("@MES", SqlDbType.Int).Value = Convert.ToInt32(dropMes.SelectedValue)
+                cmd_add.Parameters.Add("@ORIGEN", SqlDbType.VarChar).Value = Convert.ToString(dropOrigen.SelectedValue)
+                cmd_add.Parameters.Add("@TIPO", SqlDbType.VarChar).Value = Convert.ToString(dropTipo.SelectedValue)
+                cmd_add.Parameters.Add("@REGION", SqlDbType.VarChar).Value = Convert.ToString(dropRegion.SelectedValue)
+                cmd_add.Parameters.Add("@COMPLEJO", SqlDbType.VarChar).Value = Convert.ToString(dropComplejo.SelectedValue)
+                'cmd_add.Parameters.Add("@VOL", SqlDbType.Decimal).Value = Convert.ToDecimal(txtVol.Text)
+                cmd_add.Parameters.Add("@VOL", SqlDbType.Decimal).Value = ValorVolumen
+                cmd_add.Parameters.Add("@UNIDAD_DE_MEDIDA", SqlDbType.Int).Value = Convert.ToInt32(u7)
+                cmd_add.CommandText = "usp_SINO_NuevoRegistro_GasNaturalComplejos"
+                con_add.Open()
+                cmd_add.ExecuteScalar()
+                cmd_add.Dispose()
+                con_add.Close() : con_add.Dispose()
+            End Using
+        Catch ex As Exception
+            Lerror.Visible = True : Lerror.Text = ex.Message.ToString
+            ELog.save(Me, ex.Message.ToString)
+        Finally
+            Dim parent As Object = Panel_main
+            Me.ClearTextBox(parent)
+            GV_Datos.DataBind()
+        End Try
+    End Sub
+
+    ''evento de editar 
+    'Protected Sub GV_Datos_SelectedIndexChanged(sender As Object, e As System.EventArgs) Handles GV_Datos.SelectedIndexChanged
+    '    Try
+    '        Using cn As New SqlConnection(CadenaConexionPrueba)
+    '            Dim cmd_recupera As SqlCommand = cn.CreateCommand
+    '            Dim dt As New DataTable
+    '            Dim a As New SqlDataAdapter(cmd_recupera)
+    '            cn.Open()
+    '            cmd_recupera.CommandType = CommandType.StoredProcedure
+    '            cmd_recupera.Parameters.Add("@ANIO", SqlDbType.Int)
+    '            cmd_recupera.Parameters("@ANIO").Value = Convert.ToInt32(GV_Datos.Rows(GV_Datos.SelectedRow.RowIndex).Cells(1).Text)
+    '            cmd_recupera.Parameters.Add("@MES", SqlDbType.Int)
+    '            cmd_recupera.Parameters("@MES").Value = Convert.ToInt32(GV_Datos.Rows(GV_Datos.SelectedRow.RowIndex).Cells(2).Text)
+    '            cmd_recupera.Parameters.Add("@ORIGEN", SqlDbType.VarChar)
+    '            cmd_recupera.Parameters("@ORIGEN").Value = HttpUtility.HtmlDecode(Convert.ToString(GV_Datos.Rows(GV_Datos.SelectedRow.RowIndex).Cells(3).Text))
+    '            cmd_recupera.Parameters.Add("@TIPO", SqlDbType.VarChar)
+    '            cmd_recupera.Parameters("@TIPO").Value = HttpUtility.HtmlDecode(Convert.ToString(GV_Datos.Rows(GV_Datos.SelectedRow.RowIndex).Cells(4).Text))
+    '            cmd_recupera.Parameters.Add("@REGION", SqlDbType.VarChar)
+    '            cmd_recupera.Parameters("@REGION").Value = HttpUtility.HtmlDecode(Convert.ToString(GV_Datos.Rows(GV_Datos.SelectedRow.RowIndex).Cells(5).Text))
+    '            cmd_recupera.Parameters.Add("@COMPLEJO", SqlDbType.VarChar)
+    '            cmd_recupera.Parameters("@COMPLEJO").Value = HttpUtility.HtmlDecode(Convert.ToString(GV_Datos.Rows(GV_Datos.SelectedRow.RowIndex).Cells(6).Text))
+    '            cmd_recupera.CommandText = "usp_SINO_SolicitaRegistro_GasNaturalComplejos"
+    '            cmd_recupera.ExecuteNonQuery()
+    '            a = New SqlDataAdapter(cmd_recupera)
+    '            a.Fill(dt)
+    '            a.Dispose() : cmd_recupera.Dispose() : cn.Close() : cn.Dispose()
+    '            If dt.Rows.Count > 0 Then
+    '                Dim dtRow As DataRow = dt.Rows(0)
+    '                'Recuperamos año y mes solo para mostrar no modificar
+    '                txtaño0.Text = CInt(dtRow(0))
+    '                txtMes0.Text = CInt(dtRow(1))
+    '                txtVol.Text = CDec(dtRow(6))
+    '                ' indicamos con color rojo los campos que debe modifcar
+    '                dropOrigen.BorderColor = Drawing.Color.Red
+    '                dropTipo.BorderColor = Drawing.Color.Red
+    '                dropRegion.BorderColor = Drawing.Color.Red
+    '                dropComplejo.BorderColor = Drawing.Color.Red
+    '                'avisamos al usuario lo que debe hacer
+    '                Lerror.Visible = True : Lerror.Text = "Por favor verifica los datos resaltados en rojo"
+    '                txtMes0.Visible = True
+    '                dropMes.Visible = False
+    '                txtaño0.Visible = True
+    '                dropAño.Visible = False
+    '                'ocultamos o mostramos botones
+    '                btn_edit.Visible = True
+    '                btn_cancel.Visible = True
+    '                add.Visible = False
+    '            End If
+    '            dt.Clear() : dt.Dispose()
+    '        End Using
+    '    Catch ex As Exception
+    '        Lerror.Visible = True : Lerror.Text = ex.Message.ToString
+    '        ELog.save(Me, ex.Message.ToString)
+    '    End Try
+    'End Sub
+
+    'guardar registro recuperado
+    'Protected Sub btn_edit_Click(sender As Object, e As System.Web.UI.ImageClickEventArgs) Handles btn_edit.Click
+    '    Try
+    '        Dim ValorVolumen As Decimal = txtVol.Text
+    '        Using con_editar_recuperado As New SqlConnection(CadenaConexionPrueba)
+    '            Dim cmd_editar_recuperado As SqlCommand = con_editar_recuperado.CreateCommand
+    '            cmd_editar_recuperado.CommandType = CommandType.StoredProcedure
+    '            cmd_editar_recuperado.Parameters.Add("@AÑO", SqlDbType.Int).Value = Convert.ToInt32(txtaño0.Text)
+    '            cmd_editar_recuperado.Parameters.Add("@MES", SqlDbType.Int).Value = Convert.ToInt32(txtMes0.Text)
+    '            cmd_editar_recuperado.Parameters.Add("@ORIGEN", SqlDbType.VarChar).Value = Convert.ToString(dropOrigen.SelectedValue)
+    '            cmd_editar_recuperado.Parameters.Add("@TIPO", SqlDbType.VarChar).Value = Convert.ToString(dropTipo.SelectedValue)
+    '            cmd_editar_recuperado.Parameters.Add("@REGION", SqlDbType.VarChar).Value = Convert.ToString(dropRegion.SelectedValue)
+    '            cmd_editar_recuperado.Parameters.Add("@COMPLEJO", SqlDbType.VarChar).Value = Convert.ToString(dropComplejo.SelectedValue)
+    '            'cmd_editar_recuperado.Parameters.Add("@VOL", SqlDbType.Decimal).Value = HttpUtility.HtmlDecode(Convert.ToDecimal(txtVol.Text))
+    '            cmd_editar_recuperado.Parameters.Add("@VOL", SqlDbType.Decimal).Value = ValorVolumen
+    '            cmd_editar_recuperado.Parameters.Add("@UNIDAD_DE_MEDIDA", SqlDbType.Int).Value = Convert.ToInt32(u7)
+    '            cmd_editar_recuperado.CommandText = "usp_SINO_UPDATE_GasNaturalComplejos"
+    '            con_editar_recuperado.Open()
+    '            cmd_editar_recuperado.ExecuteNonQuery()
+    '            cmd_editar_recuperado.Dispose()
+    '            con_editar_recuperado.Close() : con_editar_recuperado.Dispose()
+    '        End Using
+    '        Dim parent As Object = Panel_main
+    '        Me.ClearTextBox(parent)
+    '        btn_edit.Visible = False
+    '        btn_cancel.Visible = False
+    '        add.Visible = True
+    '        'editar.Visible = True
+    '        dropOrigen.BorderColor = Drawing.Color.LightGray
+    '        dropTipo.BorderColor = Drawing.Color.LightGray
+    '        dropRegion.BorderColor = Drawing.Color.LightGray
+    '        dropComplejo.BorderColor = Drawing.Color.LightGray
+    '        Lerror.Text = String.Empty : Lerror.Visible = False
+    '        GV_Datos.Rows(GV_Datos.SelectedRow.RowIndex).BackColor = Drawing.Color.White
+    '        GV_Datos.Rows(GV_Datos.SelectedRow.RowIndex).ForeColor = Drawing.Color.Black
+    '        txtMes0.Visible = False
+    '        dropMes.Visible = True
+    '        txtaño0.Visible = False
+    '        dropAño.Visible = True
+    '        'GV_Datos.DataBind()
+    '    Catch ex As Exception
+    '        Lerror.Visible = True : Lerror.Text = ex.Message.ToString
+    '        ELog.save(Me, ex.Message.ToString)
+    '    Finally
+    '        GV_Datos.DataBind()
+    '    End Try
+    'End Sub
+
+    'Protected Sub GV_Datos_Updating(sender As Object, e As System.EventArgs) Handles GV_Datos.RowUpdating
+    '    Try
+    '        Dim ValorVolumen As Decimal = GV_Datos.Rows(GV_Datos.SelectedRow.RowIndex).FindFieldTemplate("SINOXCarga007_UDM").TemplateControl.ToString
+    '        Using con_editar_recuperado As New SqlConnection(CadenaConexionPrueba)
+    '            Dim cmd_editar_recuperado As SqlCommand = con_editar_recuperado.CreateCommand
+    '            cmd_editar_recuperado.CommandType = CommandType.StoredProcedure
+    '            cmd_editar_recuperado.Parameters.Add("@AÑO", SqlDbType.Int).Value = Convert.ToInt32(txtaño0.Text)
+    '            cmd_editar_recuperado.Parameters.Add("@MES", SqlDbType.Int).Value = Convert.ToInt32(txtMes0.Text)
+    '            cmd_editar_recuperado.Parameters.Add("@ORIGEN", SqlDbType.VarChar).Value = Convert.ToString(dropOrigen.SelectedValue)
+    '            cmd_editar_recuperado.Parameters.Add("@TIPO", SqlDbType.VarChar).Value = Convert.ToString(dropTipo.SelectedValue)
+    '            cmd_editar_recuperado.Parameters.Add("@REGION", SqlDbType.VarChar).Value = Convert.ToString(dropRegion.SelectedValue)
+    '            cmd_editar_recuperado.Parameters.Add("@COMPLEJO", SqlDbType.VarChar).Value = Convert.ToString(dropComplejo.SelectedValue)
+    '            'cmd_editar_recuperado.Parameters.Add("@VOL", SqlDbType.Decimal).Value = HttpUtility.HtmlDecode(Convert.ToDecimal(txtVol.Text))
+    '            cmd_editar_recuperado.Parameters.Add("@VOL", SqlDbType.Decimal).Value = ValorVolumen
+    '            cmd_editar_recuperado.Parameters.Add("@UNIDAD_DE_MEDIDA", SqlDbType.Int).Value = Convert.ToInt32(u7)
+    '            cmd_editar_recuperado.CommandText = "usp_SINO_UPDATE_GasNaturalComplejos"
+    '            con_editar_recuperado.Open()
+    '            cmd_editar_recuperado.ExecuteNonQuery()
+    '            cmd_editar_recuperado.Dispose()
+    '            con_editar_recuperado.Close() : con_editar_recuperado.Dispose()
+    '        End Using
+    '        Dim parent As Object = Panel_main
+    '    Catch ex As Exception
+    '        Lerror.Visible = True : Lerror.Text = ex.Message.ToString
+    '        ELog.save(Me, ex.Message.ToString)
+    '    End Try
+
+    'End Sub
+
+    Protected Sub GV_Datos_RowCommand_Update(sender As Object, e As GridViewCommandEventArgs) Handles GV_Datos.RowCommand
+        If e.CommandName = "Choco_Update" Then
+            Try
+                Dim row As GridViewRow = ((CType(e.CommandSource, ImageButton)).NamingContainer)
+                Dim RowIndx As Integer = row.RowIndex
+
+                Dim Año As Integer = Convert.ToInt32(CType(row.FindControl("TextBoxAño"), TextBox).Text).ToString
+                Dim Mes As Integer = Convert.ToInt32(CType(row.FindControl("TextBoxMes"), TextBox).Text).ToString
+                Dim Origen As String = Convert.ToString(CType(row.FindControl("DropOrigen_gv"), DropDownList).SelectedValue).ToString
+                Dim Tipo As String = Convert.ToString(CType(row.FindControl("DropTipo_GV"), DropDownList).SelectedValue).ToString
+                Dim Region As String = Convert.ToString(CType(row.FindControl("DropRegion_GV"), DropDownList).SelectedValue).ToString
+                Dim Complejo As String = Convert.ToString(CType(row.FindControl("DropComplejo_gv"), DropDownList).SelectedValue).ToString
+                Dim vol As Decimal = Convert.ToDecimal(CType(row.FindControl("TextVol_gv"), TextBox).Text).ToString
+                'enviamos el evento de update 
+                'ELog.save(Me, Año.ToString + Mes.ToString + Origen.ToString + Tipo.ToString + Region.ToString + vol.ToString + u7.ToString)
+                'Dim ValorVolumen As Decimal = GV_Datos.Rows(GV_Datos.SelectedRow.RowIndex).FindFieldTemplate("SINOXCarga007_UDM").TemplateControl.ToString
+                Using con_editar_recuperado As New SqlConnection(CadenaConexionPrueba)
+                    Dim cmd_editar_recuperado As SqlCommand = con_editar_recuperado.CreateCommand
+                    cmd_editar_recuperado.CommandType = CommandType.StoredProcedure
+                    cmd_editar_recuperado.Parameters.Add("@AÑO", SqlDbType.Int).Value = Año
+                    cmd_editar_recuperado.Parameters.Add("@MES", SqlDbType.Int).Value = Mes
+                    cmd_editar_recuperado.Parameters.Add("@ORIGEN", SqlDbType.VarChar).Value = Origen
+                    cmd_editar_recuperado.Parameters.Add("@TIPO", SqlDbType.VarChar).Value = Tipo
+                    cmd_editar_recuperado.Parameters.Add("@REGION", SqlDbType.VarChar).Value = Region
+                    cmd_editar_recuperado.Parameters.Add("@COMPLEJO", SqlDbType.VarChar).Value = Complejo
+                    cmd_editar_recuperado.Parameters.Add("@VOL", SqlDbType.Decimal).Value = vol
+                    cmd_editar_recuperado.Parameters.Add("@UNIDAD_DE_MEDIDA", SqlDbType.Int).Value = u7
+                    cmd_editar_recuperado.CommandText = "usp_SINO_UPDATE_GasNaturalComplejos"
+                    con_editar_recuperado.Open()
+                    cmd_editar_recuperado.ExecuteNonQuery()
+                    cmd_editar_recuperado.Dispose()
+                    con_editar_recuperado.Close() : con_editar_recuperado.Dispose()
+                End Using
+            Catch ex As Exception
+                Lerror.Visible = True : Lerror.Text = ex.Message.ToString
+                ELog.save(Me, ex.Message.ToString)
+            Finally
+                GV_Datos.EditIndex = -1
+                DataBind()
+            End Try
+        End If
+    End Sub
+End Class
